@@ -4,9 +4,10 @@ import Artwork from './Artwork'
 
 function Home() {
     return (
-        <div>
-            Home
-            <Link > artwork</Link>
+        <div style={{display:"flex", flexDirection:"column", paddingLeft:"20px"}}>
+            <h2>Home</h2>
+            <Link to="/artwork/0" style={{marginTop:"10px"}}> artwork0</Link>
+            <Link to="/artwork/1" style={{marginTop:"10px"}}> artwork1</Link>
         </div>
       
     )
