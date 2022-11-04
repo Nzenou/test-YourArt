@@ -30,12 +30,12 @@ function ArtworkInfo({
             >
              {artworkData?.price} €
             </p>
-            <a href="#" className="AcquireButton">
+            <button className="AcquireButton">
               Acquire
-            </a>
-            <a href="#" className="MakeAnOfferButton" style={{ marginTop: "10px" }}>
+            </button>
+            <button className="MakeAnOfferButton" style={{ marginTop: "10px" }}>
               Make an offer
-            </a>
+            </button>
             <div
               style={{
                 display: "flex",
