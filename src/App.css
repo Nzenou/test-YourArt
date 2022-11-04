@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+p{
+  margin: 0;
+  font-weight: 600;
+}
+.AcquireButton {
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+	border-radius:32px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:7px 75px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  width: 95px;
+  text-align: center;
+}
+.AcquireButton:hover {
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+}
+.AcquireButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.MakeAnOfferButton {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:32px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#050005;
+	font-family:Arial;
+	font-size:16px;
+	padding:7px 75px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.MakeAnOfferButton:hover {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+}
+.MakeAnOfferButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.collapsible {
+  background-color: #ffff;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+
+
+.content {
+  padding: 0 1em;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
